@@ -11,9 +11,10 @@ Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
-colorscheme gruvbox
-set background=dark
+colorscheme gruvbox 
+set background=dark 
 
+command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
 set hidden
 set number 
 set relativenumber
