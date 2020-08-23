@@ -7,4 +7,6 @@ source $HOME/.config/nvim/themes/onedark.vim
 source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
 lua require'plug-colorizer'
+source $HOME/.config/nvim/plug-config/start-screen.vim
+source $HOME/.config/nvim/plug-config/signify.vim
 

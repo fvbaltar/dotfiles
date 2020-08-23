@@ -29,4 +29,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'norcalli/nvim-colorizer.lua'
     " Rainbow Parenthesis
     Plug 'junegunn/rainbow_parentheses.vim' 
+    "Start screen
+    Plug 'mhinz/vim-startify'    
+    "Git integration
+    Plug 'mhinz/vim-signify'
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
+    Plug 'junegunn/gv.vim'
 call plug#end()
