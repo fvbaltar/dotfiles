@@ -21,4 +21,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
     "Ranger
     Plug 'kevinhwang91/rnvimr'
+    "FZF
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
+    Plug 'airblade/vim-rooter'    
+    "Colorizer
+    Plug 'norcalli/nvim-colorizer.lua'
+    " Rainbow Parenthesis
+    Plug 'junegunn/rainbow_parentheses.vim' 
 call plug#end()
