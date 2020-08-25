@@ -36,4 +36,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
+    " Indent lines 
+    Plug 'Yggdroot/indentLine' 
 call plug#end()

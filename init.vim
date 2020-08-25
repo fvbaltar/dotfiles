@@ -9,4 +9,4 @@ source $HOME/.config/nvim/plug-config/fzf.vim
 lua require'plug-colorizer'
 source $HOME/.config/nvim/plug-config/start-screen.vim
 source $HOME/.config/nvim/plug-config/signify.vim
-
+source $HOME/.config/nvim/plug-config/indentline.vim
