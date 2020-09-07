@@ -20,7 +20,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     "Ranger
-    Plug 'kevinhwang91/rnvimr'
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
     "FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
@@ -36,6 +36,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
+    "Sneak
+    Plug 'justinmk/vim-sneak'
+    "Wich key
+    Plug 'liuchengxu/vim-which-key'
     " Styled components
     Plug 'fleischie/vim-styled-components' 
 call plug#end()
