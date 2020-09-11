@@ -36,15 +36,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
-<<<<<<< HEAD
-    " Indent lines 
-    Plug 'Yggdroot/indentLine' 
-=======
     "Sneak
     Plug 'justinmk/vim-sneak'
     "Wich key
     Plug 'liuchengxu/vim-which-key'
     " Styled components
     Plug 'fleischie/vim-styled-components' 
->>>>>>> b3842dd8ad4ac9a92b094690f762beb7a87a5f81
 call plug#end()
