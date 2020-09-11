@@ -28,7 +28,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "Colorizer
     Plug 'norcalli/nvim-colorizer.lua'
     " Rainbow Parenthesis
-    Plug 'junegunn/rainbow_parentheses.vim' 
+    Plug 'luochen1990/rainbow'
     "Start screen
     Plug 'mhinz/vim-startify'    
     "Git integration
