@@ -10,6 +10,7 @@
     "typescript",
     "tsserver"
   ],
+
   "compilerOptions": {
     "plugins": [
       {
@@ -17,6 +18,14 @@
         "tags": ["styled", "css", "sty"]
       }
     ]
+  },
+
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"]
+    }
   },
 
   // explorer

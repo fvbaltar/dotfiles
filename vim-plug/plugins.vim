@@ -7,39 +7,55 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
+    " Golang 
+    Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
     " Better Syntax Support
-    Plug 'sheerun/vim-polyglot'
+    "Plug 'sheerun/vim-polyglot'
+
     " Auto pairs for '(' '[' '{'
-    Plug 'jiangmiao/auto-pairs'
+    "Plug 'jiangmiao/auto-pairs'
+    
     "Themes
-    Plug 'joshdick/onedark.vim'
+    "Plug 'joshdick/onedark.vim'
+    Plug 'NLKNguyen/papercolor-theme'
+    
     "Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    
     "Status Line 
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+    
     "Ranger
-    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+    "Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+    
     "FZF
-    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    Plug 'junegunn/fzf.vim'
-    Plug 'airblade/vim-rooter'    
+    "Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    "Plug 'junegunn/fzf.vim'
+    "Plug 'airblade/vim-rooter'    
+    
     "Colorizer
-    Plug 'norcalli/nvim-colorizer.lua'
+    "Plug 'norcalli/nvim-colorizer.lua'
+    
     " Rainbow Parenthesis
-    Plug 'luochen1990/rainbow'
+    "Plug 'luochen1990/rainbow'
+    
     "Start screen
-    Plug 'mhinz/vim-startify'    
+    "Plug 'mhinz/vim-startify'    
+    
     "Git integration
-    Plug 'mhinz/vim-signify'
-    Plug 'tpope/vim-fugitive'
-    Plug 'tpope/vim-rhubarb'
-    Plug 'junegunn/gv.vim'
+    "Plug 'mhinz/vim-signify'
+    "Plug 'tpope/vim-fugitive'
+    "Plug 'tpope/vim-rhubarb'
+    "Plug 'junegunn/gv.vim'
+    
     "Sneak
-    Plug 'justinmk/vim-sneak'
+    "Plug 'justinmk/vim-sneak'
+    
     "Wich key
-    Plug 'liuchengxu/vim-which-key'
+    "Plug 'liuchengxu/vim-which-key'
+    
     " Styled components
-    Plug 'fleischie/vim-styled-components' 
+    "Plug 'fleischie/vim-styled-components' 
 call plug#end()
