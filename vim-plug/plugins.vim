@@ -14,7 +14,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "Plug 'sheerun/vim-polyglot'
 
     " Auto pairs for '(' '[' '{'
-    "Plug 'jiangmiao/auto-pairs'
+    Plug 'jiangmiao/auto-pairs'
     
     "Themes
     "Plug 'joshdick/onedark.vim'
