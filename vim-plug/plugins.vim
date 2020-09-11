@@ -20,7 +20,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     "Ranger
-    Plug 'kevinhwang91/rnvimr'
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
     "FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
@@ -28,7 +28,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "Colorizer
     Plug 'norcalli/nvim-colorizer.lua'
     " Rainbow Parenthesis
-    Plug 'junegunn/rainbow_parentheses.vim' 
+    Plug 'luochen1990/rainbow'
     "Start screen
     Plug 'mhinz/vim-startify'    
     "Git integration
@@ -36,6 +36,15 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
+<<<<<<< HEAD
     " Indent lines 
     Plug 'Yggdroot/indentLine' 
+=======
+    "Sneak
+    Plug 'justinmk/vim-sneak'
+    "Wich key
+    Plug 'liuchengxu/vim-which-key'
+    " Styled components
+    Plug 'fleischie/vim-styled-components' 
+>>>>>>> b3842dd8ad4ac9a92b094690f762beb7a87a5f81
 call plug#end()

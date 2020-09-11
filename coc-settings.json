@@ -7,8 +7,17 @@
     "html",
     "yaml",
     "json",
-    "typescript"
+    "typescript",
+    "tsserver"
   ],
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin",
+        "tags": ["styled", "css", "sty"]
+      }
+    ]
+  },
 
   // explorer
   "explorer.width": 30,
