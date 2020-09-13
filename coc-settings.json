@@ -10,7 +10,9 @@
     "typescript",
     "tsserver"
   ],
-
+  "styled-components.tags": ["styled", "css", "sty"],
+  "styled-components.lint": {},
+  "styled-components.validate": true,
   "compilerOptions": {
     "plugins": [
       {

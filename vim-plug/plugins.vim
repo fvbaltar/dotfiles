@@ -11,15 +11,15 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
     " Better Syntax Support
-    "Plug 'sheerun/vim-polyglot'
+    Plug 'sheerun/vim-polyglot'
 
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     
     "Themes
     "Plug 'joshdick/onedark.vim'
-    Plug 'NLKNguyen/papercolor-theme'
-    
+    "Plug 'NLKNguyen/papercolor-theme'
+    Plug 'christianchiarulli/nvcode.vim'
     "Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     
@@ -36,7 +36,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "Plug 'airblade/vim-rooter'    
     
     "Colorizer
-    "Plug 'norcalli/nvim-colorizer.lua'
+    Plug 'norcalli/nvim-colorizer.lua'
     
     " Rainbow Parenthesis
     "Plug 'luochen1990/rainbow'
@@ -45,10 +45,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "Plug 'mhinz/vim-startify'    
     
     "Git integration
-    "Plug 'mhinz/vim-signify'
-    "Plug 'tpope/vim-fugitive'
-    "Plug 'tpope/vim-rhubarb'
-    "Plug 'junegunn/gv.vim'
+    Plug 'mhinz/vim-signify'
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
+    Plug 'junegunn/gv.vim'
     
     "Sneak
     "Plug 'justinmk/vim-sneak'
@@ -57,5 +57,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "Plug 'liuchengxu/vim-which-key'
     
     " Styled components
-    "Plug 'fleischie/vim-styled-components' 
+    Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+
+    " Cool Icons
+    Plug 'ryanoasis/vim-devicons'
+
+    " Xtabline 
+    Plug 'mg979/vim-xtabline' 
 call plug#end()
