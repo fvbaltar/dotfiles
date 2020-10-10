@@ -19,7 +19,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "Themes
     "Plug 'joshdick/onedark.vim'
     "Plug 'NLKNguyen/papercolor-theme'
-    Plug 'christianchiarulli/nvcode.vim'
+    "Plug 'christianchiarulli/nvcode.vim'
+    Plug 'morhetz/gruvbox'
     "Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     
