@@ -29,12 +29,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
     
     "Ranger
-    "Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
     
     "FZF
-    "Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    "Plug 'junegunn/fzf.vim'
-    "Plug 'airblade/vim-rooter'    
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
+    Plug 'airblade/vim-rooter'    
     
     "Colorizer
     Plug 'norcalli/nvim-colorizer.lua'
@@ -52,7 +52,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/gv.vim'
     
     "Sneak
-    "Plug 'justinmk/vim-sneak'
+    Plug 'justinmk/vim-sneak'
     
     "Wich key
     "Plug 'liuchengxu/vim-which-key'
@@ -65,4 +65,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Xtabline 
     Plug 'mg979/vim-xtabline' 
+
+    "IndentLine
+    Plug 'Yggdroot/indentLine'
 call plug#end()
