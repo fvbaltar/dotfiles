@@ -20,6 +20,7 @@ source $HOME/.config/nvim/plug-config/vim-go.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
 source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/plug-config/indentline.vim
+source $HOME/.config/nvim/plug-config/sneak.vim
 
 "Lua colorizer 
 lua require 'plug-colorizer'

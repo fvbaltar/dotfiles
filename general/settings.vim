@@ -1,7 +1,7 @@
 " set leader key
 let g:mapleader = "\<Space>"
 
-syntax enable                           " Enables syntax highlighing
+syntax on                               " Enables syntax highlighing
 set textwidth=80
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
@@ -35,12 +35,16 @@ set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 "set autochdir                           " Your working directory will always be the same as your working directory
+set relativenumber 
 
-set list lcs=tab:▸\           " ┐
-set list lcs+=trail:·         " │ Use custom symbols to
-set list lcs+=eol:↴           " │ represent invisible characters
-set list lcs+=nbsp:_          " ┘
+" Habilita a exibição de caracteres ocultos
+set list 
 
+" Define como os símbolos ocultos serão representados
+set listchars=tab:▸\
+set listchars+=trail:·
+set listchars+=eol:↴
+set listchars+=nbsp:_
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
