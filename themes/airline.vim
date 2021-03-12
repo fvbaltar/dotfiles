@@ -37,7 +37,7 @@ let g:airline_section_c = airline#section#create([''])
 " let g:airline_section_z = airline#section#create(['linenr'])
 
 " Switch to your current theme
-" let g:airline_theme = 'onedark'
+let g:airline_theme = 'one'
 
 " Always show tabs
 set showtabline=2
@@ -47,7 +47,7 @@ set noshowmode
 
 " Sections
 " let g:airline_section_c = ''
-let g:airline_section_a = "gruvbox"
+let g:airline_section_a = "One"
 " let g:airline_section_a = ""
 let g:airline_section_y = ''
 let g:webdevicons_enable_airline_tabline = 1

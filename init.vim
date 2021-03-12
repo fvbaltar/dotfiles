@@ -6,7 +6,7 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 
 "Themes config
 source $HOME/.config/nvim/themes/airline.vim
-source $HOME/.config/nvim/themes/gruvbox.vim
+source $HOME/.config/nvim/themes/one.vim
 "Mappings keys
 source $HOME/.config/nvim/keys/mappings.vim
 
