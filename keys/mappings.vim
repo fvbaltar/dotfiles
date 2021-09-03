@@ -39,4 +39,12 @@ nnoremap <Leader>O O<Esc>^Da
 nnoremap <leader>/ :Commentary<cr>
 vnoremap <leader>/ :Commentary<cr>
 
+"selecionar tudo
+nnoremap <C-a> ggVG
+
+"vertical split
+nnoremap <leader>vp :vsplit<cr>
+
+"horizontal split
+nnoremap <leader>hp :split<cr>
 

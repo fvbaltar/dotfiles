@@ -18,9 +18,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     
     "Themes
     Plug 'joshdick/onedark.vim'
-    "Plug 'NLKNguyen/papercolor-theme'
-    "Plug 'christianchiarulli/nvcode.vim'
-    "Plug 'morhetz/gruvbox'
     Plug 'rakr/vim-one'
     "Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -55,9 +52,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "Sneak
     Plug 'justinmk/vim-sneak'
     
-    "Wich key
-    "Plug 'liuchengxu/vim-which-key'
-    
     " Styled components
     Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
@@ -67,6 +61,17 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Xtabline 
     Plug 'mg979/vim-xtabline' 
 
-    "IndentLine
-    Plug 'Yggdroot/indentLine'
+    "multiples cursors
+    Plug 'terryma/vim-multiple-cursors'
+
+    "Comment lint
+    Plug 'tpope/vim-commentary'
+
+    "Rails plugin
+    Plug 'tpope/vim-rails'   
+    Plug 'vim-ruby/vim-ruby'
+    Plug 'ngmy/vim-rubocop'
+    "Plug 'ludovicchabant/vim-gutentags'
+    "Vim Tmux
+    Plug 'tmux-plugins/vim-tmux'
 call plug#end()

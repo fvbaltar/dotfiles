@@ -34,18 +34,21 @@ set updatetime=300                      " Faster completion
 set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
+set inccommand=split
+set modifiable
+set buftype= " "
 "set autochdir                           " Your working directory will always be the same as your working directory
-set relativenumber 
+"set relativenumber 
 
 " Habilita a exibição de caracteres ocultos
 set list 
-
+set path=$PWD/**
 " Define como os símbolos ocultos serão representados
-set listchars=tab:▸\
-set listchars+=trail:·
-set listchars+=eol:↴
-set listchars+=nbsp:_
-
+"set listchars=tab:▸\
+"set listchars+=trail:·
+"set listchars+=eol:↴
+"set listchars+=nbsp:_
+let g:ruby_host_prog = 'rvm system do neovim-ruby-host'
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
 " You can't stop me

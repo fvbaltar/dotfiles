@@ -6,7 +6,7 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 
 "Themes config
 source $HOME/.config/nvim/themes/airline.vim
-source $HOME/.config/nvim/themes/one.vim
+source $HOME/.config/nvim/themes/onedarkcustom.vim
 "Mappings keys
 source $HOME/.config/nvim/keys/mappings.vim
 
@@ -21,6 +21,9 @@ source $HOME/.config/nvim/plug-config/fzf.vim
 source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/plug-config/indentline.vim
 source $HOME/.config/nvim/plug-config/sneak.vim
+source $HOME/.config/nvim/plug-config/multiple-cursors.vim
+source $HOME/.config/nvim/plug-config/vim-commentary.vim
+source $HOME/.config/nvim/plug-config/tmux.vim
 
 "Lua colorizer 
 lua require 'plug-colorizer'

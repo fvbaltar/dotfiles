@@ -1,45 +1,29 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": [
-    "css",
-    "markdown",
-    "graphql",
-    "html",
-    "yaml",
-    "json",
-    "typescript",
-    "tsserver"
+  "codeLens.enable": true,
+  "coc.preferences.formatOnSaveFiletypes": ["*"],
+  "coc.preferences.rootPatterns": [
+    ".git",
+    ".hg",
+    ".projections.json",
+    "Gemfile",
+    "package.json"
   ],
-  "styled-components.tags": [
-    "styled",
-    "css",
-    "sty"
-  ],
+  "styled-components.tags": ["styled", "css", "sty"],
   "styled-components.lint": {},
   "styled-components.validate": true,
   "compilerOptions": {
     "plugins": [
       {
         "name": "typescript-styled-plugin",
-        "tags": [
-          "styled",
-          "css",
-          "sty"
-        ]
+        "tags": ["styled", "css", "sty"]
       }
     ]
   },
   "languageserver": {
     "golang": {
       "command": "gopls",
-      "rootPatterns": [
-        "go.mod",
-        ".vim/",
-        ".git/",
-        ".hg/"
-      ],
-      "filetypes": [
-        "go"
-      ]
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"]
     }
   },
   // explorer
@@ -47,11 +31,7 @@
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings": {
-    "<cr>": [
-      "expandable?",
-      "expand",
-      "open"
-    ],
+    "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
   }
 }
