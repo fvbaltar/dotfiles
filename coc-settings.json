@@ -1,6 +1,8 @@
 {
   "codeLens.enable": true,
-  //"coc.preferences.formatOnSaveFiletypes": ["*"],
+  "javascript.referencesCodeLens.enable": false,
+  "typescript.referencesCodeLens.enable": false,
+  // "coc.preferences.formatOnSaveFiletypes": ["*"],
   "coc.preferences.rootPatterns": [
     ".git",
     ".hg",

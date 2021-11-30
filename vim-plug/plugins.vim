@@ -74,4 +74,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "Plug 'ludovicchabant/vim-gutentags'
     "Vim Tmux
     Plug 'tmux-plugins/vim-tmux'
+
+    "Plug Telescope
+    Plug 'nvim-lua/plenary.nvim'
+    Plug 'nvim-telescope/telescope.nvim'
+
+    "TreeSitter
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 call plug#end()

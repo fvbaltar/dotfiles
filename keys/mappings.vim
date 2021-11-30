@@ -48,3 +48,9 @@ nnoremap <leader>vp :vsplit<cr>
 "horizontal split
 nnoremap <leader>hp :split<cr>
 
+" Remove Highlights
+nmap <Leader><CR> :nohlsearch<cr>
+
+" Close a buffer
+map <leader>d :bd<CR>
+map <leader>D :bd!<CR>

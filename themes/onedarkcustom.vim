@@ -10,8 +10,8 @@ let g:onedark_color_overrides = {
       \}
 syntax enable
 colorscheme onedark
-
-set guifont=FiraCode_Nerd_Font:h11
+hi Normal guibg=NONE ctermbg=NONE
+set guifont=Hack_Nerd_Font:h11
 let g:airline_powerline_fonts = 1
 
 if (has("termguicolors"))
