@@ -81,4 +81,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     "TreeSitter
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
+    " Git blame
+    Plug 'APZelos/blamer.nvim'    
 call plug#end()
